@@ -1,6 +1,6 @@
 # Traffic Scene Parsing through the TSP6K Dataset
 <div align="center">
-<img src=https://github.com/PengtaoJiang/TSP6K/blob/main/tsp6k_logo.png.png width=400 height=120/>
+<img src=https://github.com/PengtaoJiang/TSP6K/blob/main/tsp6k_logo.png width=400 height=120/>
 </div>
 
 The Official PyTorch code for the proposed segmentation network in [TSP6K dataset](https://arxiv.org/pdf/2303.02835.pdf). 

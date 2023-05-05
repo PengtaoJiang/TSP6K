@@ -47,3 +47,14 @@ bash tools/dist_test.sh \
     8 --out ./work_dirs/segnext_base_1024x1024_160k_tsp6k_msaspp_rrm_5tokens_12heads/results.pkl \
     --aug-test --eval cityscapes  
 ```
+
+## Citation
+If you find the proposed TSP6K dataset and segmentation network are useful for your research, please cite
+```
+@article{jiang2023traffic,
+  title={Traffic Scene Parsing through the TSP6K Dataset},
+  author={Jiang, Peng-Tao and Yang, Yuqi and Cao, Yang and Hou, Qibin and Cheng, Ming-Ming and Shen, Chunhua},
+  journal={arXiv preprint arXiv:2303.02835},
+  year={2023}
+}
+```

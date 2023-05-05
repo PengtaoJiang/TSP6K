@@ -31,7 +31,15 @@ configs/tsp6k/segnext_base_1024x1024_160k_tsp6k_msaspp_rrm_5tokens_12heads.py \
 ```
 
 ## Evaluation
-Evaluate the segmentation model with the following command
+
+### Results and models
+
+| Method | Backbone | Crop Size |Lr Sche. |  mIoU | iIoU | config | model | log |
+| :----- |:-----:   |:-----:    |:---:    |:---:  |:---: |:---:   |:---:  |:---:|
+| SegNext+DRD | MSCAN-B  | 1024x1024  | 160000  | 78.02 | 79.26 | [config]()  | [model]() | [log]()     |
+| SegNext+DRD | MSCAN-L  | 1024x1024  | 160000  | 78.02 | 79.26 | [config]()  | [model]() | [log]()     |
+
+We provide the pre-trained segmentation models above. You can download them and directly evaluate them by
 ```
 bash tools/dist_test.sh \
     configs/tsp6k/segnext_base_1024x1024_160k_tsp6k_msaspp_rrm_5tokens_12heads.py \

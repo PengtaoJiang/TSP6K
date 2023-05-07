@@ -23,6 +23,13 @@ python setup.py build install
 
 ## Dataset Preparation
 Download the dataset from [this link]() and put them into ```/data/TSP6K/```.
+```
+data
+├── TSP6K
+│   ├── image
+│   ├── label
+│   ├── split
+```
 
 
 ## Training 

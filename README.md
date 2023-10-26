@@ -7,7 +7,13 @@ The Official PyTorch code for the proposed segmentation network in [TSP6K datase
 Code is implemented based on an open source semantic segmentation toolbox, [MMsegmentation](https://github.com/open-mmlab/mmsegmentation).
 
 ## Installation 
-Please follow the installation instructions in [mmsegmentation]().
+Please follow the installation instructions in [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/get_started.md#installation). 
+In our environment, we use the following versions of different packages.
+```
+mmsegmentation==0.20.2
+mmcv-full=1.4.0
+```
+
 
 Install the mmseg lib first 
 ```

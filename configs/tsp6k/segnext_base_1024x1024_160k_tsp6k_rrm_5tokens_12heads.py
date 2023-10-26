@@ -50,26 +50,6 @@ model = dict(
     # test_cfg=dict(mode='whole'))
     test_cfg=dict(mode='slide', crop_size=(1024, 1024), stride=(768, 768)))
 
-# # data
-# data = dict(samples_per_gpu=1)
-# img_norm_cfg = dict(
-#     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
-# crop_size = (240, 240)
-# train_pipeline = [
-#     dict(type='LoadImageFromFile'),
-#     dict(type='LoadAnnotations'),
-#     dict(type='Resize', img_scale=(2048, 1024), ratio_range=(0.5, 2.0)),
-#     dict(type='RandomCrop', crop_size=crop_size, cat_max_ratio=0.75),
-#     dict(type='RandomFlip', prob=0.5),
-#     dict(type='PhotoMetricDistortion'),
-#     dict(type='Normalize', **img_norm_cfg),
-#     dict(type='Pad', size=crop_size, pad_val=0, seg_pad_val=255),
-#     dict(type='DefaultFormatBundle'),
-#     dict(type='Collect', keys=['img', 'gt_semantic_seg']),
-# ]
-# data = dict(
-#     train=dict(pipeline=train_pipeline))
-
 evaluation = dict(interval=16000, metric='mIoU')
 checkpoint_config = dict(by_epoch=False, interval=16000)
 # optimizer

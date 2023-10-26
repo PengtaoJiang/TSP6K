@@ -4,7 +4,7 @@
 </div>
 
 The Official PyTorch code for the proposed segmentation network in [TSP6K dataset](https://arxiv.org/pdf/2303.02835.pdf). 
-Code is implemented based on an open source semantic segmentation toolbox, [MMsegmentation](https://github.com/open-mmlab/mmsegmentation).
+Code is implemented using an open-source semantic segmentation toolbox, [MMsegmentation](https://github.com/open-mmlab/mmsegmentation).
 
 ## Installation 
 Please follow the installation instructions in [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/get_started.md#installation). 
@@ -29,7 +29,7 @@ python setup.py build install
 
 ## Dataset Preparation
 Download the dataset from [this link](https://www.jianguoyun.com/p/DZVO0kMQ2tnWChjun6MFIAA) and put them into ```/data/TSP6K/```.
-You can successfully download the dataset once you have sent an email to (pt.jiang at mail.nankai.edu.cn) to obtain the password.
+Since the paper has not been accepted yet, you can successfully download the dataset once you have sent an email to (pt.jiang at mail.nankai.edu.cn) to obtain the password.
 ```
 data
 ├── TSP6K

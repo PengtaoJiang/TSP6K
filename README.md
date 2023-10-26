@@ -28,7 +28,7 @@ python setup.py build install
 ```
 
 ## Dataset Preparation
-Download the dataset from [this link](https://www.jianguoyun.com/p/Dc420uMQ2tnWChj9_YYFIAA) and put them into ```/data/TSP6K/```.
+Download the dataset from [this link](https://www.jianguoyun.com/p/DZVO0kMQ2tnWChjun6MFIAA) and put them into ```/data/TSP6K/```.
 You can successfully download the dataset once you have sent an email to (pt.jiang at mail.nankai.edu.cn) to obtain the password.
 ```
 data

@@ -55,7 +55,7 @@ configs/tsp6k/segnext_base_1024x1024_160k_tsp6k_msaspp_rrm_5tokens_12heads.py \
 | Method | Backbone | Crop Size |Lr Sche. |  val mIoU (ms) | val iIoU (ms) | config | model |
 | :----- |:-----:   |:-----:    |:---:    |:---:  |:---: |:---:   |:---:  |
 | SegNext+DRD | MSCAN-B  | 1024x1024  | 160000  | 75.8 | 58.4 | [config](https://github.com/PengtaoJiang/TSP6K/blob/main/configs/tsp6k/segnext_base_1024x1024_160k_tsp6k_msaspp_rrm_5tokens_12heads.py)  | [model](https://www.jianguoyun.com/p/DfREB7IQ2tnWChjhn6MFIAA) |
-| SegNext+DRD | MSCAN-L  | 1024x1024  | 160000  | 76.2 | 58.9 | [config](https://github.com/PengtaoJiang/TSP6K/blob/main/configs/tsp6k/segnext_large_1024x1024_160k_tsp6k_msaspp_rrm.py)  | [model]() | 
+| SegNext+DRD | MSCAN-L  | 1024x1024  | 160000  | 76.2 | 58.9 | [config](https://github.com/PengtaoJiang/TSP6K/blob/main/configs/tsp6k/segnext_large_1024x1024_160k_tsp6k_msaspp_rrm.py)  | [model](https://www.jianguoyun.com/p/Dca5qT8Q2tnWChjtn6MFIAA) | 
 
 We provide the pre-trained segmentation models above. You can download them and directly evaluate them by
 ```

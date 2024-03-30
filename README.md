@@ -1,4 +1,4 @@
-# Traffic Scene Parsing through the TSP6K Dataset
+# [CVPR2024] Traffic Scene Parsing through the TSP6K Dataset
 <div align="center">
 <img src=https://github.com/PengtaoJiang/TSP6K/blob/main/tsp6k_logo.png width=400 height=120/>
 </div>

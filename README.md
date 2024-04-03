@@ -1,8 +1,10 @@
 # [CVPR2024] Traffic Scene Parsing through the TSP6K Dataset
-<div align="center">
+<!-- <div align="center">
 <img src=https://github.com/PengtaoJiang/TSP6K/blob/main/tsp6k_logo.png width=400 height=120/>
+</div> -->
+<div align="center">
+<img src=https://github.com/PengtaoJiang/TSP6K/blob/main/demo/demo.mp4 width=400 height=120/>
 </div>
-
 The Official PyTorch code for the proposed segmentation network in [TSP6K dataset](https://arxiv.org/pdf/2303.02835.pdf). 
 Code is implemented using an open-source semantic segmentation toolbox, [MMsegmentation](https://github.com/open-mmlab/mmsegmentation).
 
@@ -77,10 +79,10 @@ bash tools/dist_test.sh \
 ## Citation
 If you find the proposed TSP6K dataset and segmentation network are useful for your research, please cite
 ```
-@article{jiang2023traffic,
+@inproceedings{jiang2024traffic,
   title={Traffic Scene Parsing through the TSP6K Dataset},
   author={Jiang, Peng-Tao and Yang, Yuqi and Cao, Yang and Hou, Qibin and Cheng, Ming-Ming and Shen, Chunhua},
-  journal={arXiv preprint arXiv:2303.02835},
-  year={2023}
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  year={2024}
 }
 ```

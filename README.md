@@ -1,4 +1,5 @@
 # [CVPR2024] Traffic Scene Parsing through the TSP6K Dataset
+<video src="https://github.com/PengtaoJiang/TSP6K/blob/main/demo/demo.mp4" width="320" height="240" controls></video>
 <!-- <div align="center">
 <img src=https://github.com/PengtaoJiang/TSP6K/blob/main/tsp6k_logo.png width=400 height=120/>
 </div> -->

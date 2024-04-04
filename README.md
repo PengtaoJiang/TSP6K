@@ -5,7 +5,7 @@
 </div> -->
 <div align="center"><video src="https://github.com/PengtaoJiang/TSP6K/assets/23328456/217770e6-5d0b-4a3d-a709-ebe752857c85" width="700" muted="false"></video></div>
 
-The Official PyTorch code for the proposed segmentation network in [TSP6K dataset](https://arxiv.org/pdf/2303.02835.pdf). 
+The dataset and code in [TSP6K dataset](https://arxiv.org/pdf/2303.02835.pdf). 
 Code is implemented using an open-source semantic segmentation toolbox, [MMsegmentation](https://github.com/open-mmlab/mmsegmentation).
 
 ## Installation 

@@ -1,10 +1,9 @@
 # [CVPR2024] Traffic Scene Parsing through the TSP6K Dataset
-<video src="https://github.com/PengtaoJiang/TSP6K/blob/main/demo/demo.mp4" width="320" height="240" controls></video>
+
 <!-- <div align="center">
 <img src=https://github.com/PengtaoJiang/TSP6K/blob/main/tsp6k_logo.png width=400 height=120/>
 </div> -->
-<div><video src="https://mmcheng.net/wp-content/uploads/2024/04/demo.mp4" muted="false"></video></div>
-<!-- <div><video controls src="https://user-images.githubusercontent.com/20723919/120432939-99194880-c3b5-11eb-8eea-f4aa424d479f.MP4" muted="false"></video></div> -->
+<div align="center"><video src="https://github.com/PengtaoJiang/TSP6K/assets/23328456/217770e6-5d0b-4a3d-a709-ebe752857c85" width="700" muted="false"></video></div>
 
 The Official PyTorch code for the proposed segmentation network in [TSP6K dataset](https://arxiv.org/pdf/2303.02835.pdf). 
 Code is implemented using an open-source semantic segmentation toolbox, [MMsegmentation](https://github.com/open-mmlab/mmsegmentation).

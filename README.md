@@ -39,7 +39,7 @@ data
 │   ├── label
 │   ├── split
 ```
-
+You can also download the COCO-style instance bounding box annotations from this [link](https://drive.google.com/file/d/1bhTQPZ_HS9DttmiMzeCWyjWhAD5Fg9q8/view?usp=drive_link).
 
 ## Training 
 Train SegNext with the proposed Detail Refining Decoder using 

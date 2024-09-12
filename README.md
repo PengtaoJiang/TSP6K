@@ -31,7 +31,6 @@ python setup.py build install
 
 ## Dataset Preparation
 Download the dataset from [this link](https://drive.google.com/file/d/1yDCL8vLOYcRuInCPUij3_pmq9yPk7KQj/view?usp=sharing) and put them into ```/data/TSP6K/```.
-Since the paper has not been accepted yet, you can successfully download the dataset once you have sent an email to (pt.jiang at mail.nankai.edu.cn) to obtain the password.
 ```
 data
 ├── TSP6K

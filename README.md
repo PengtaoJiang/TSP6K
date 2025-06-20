@@ -30,7 +30,7 @@ python setup.py build install
 ```
 
 ## Dataset Preparation
-Download the dataset from [this link](https://drive.google.com/file/d/1yDCL8vLOYcRuInCPUij3_pmq9yPk7KQj/view?usp=sharing) and put them into ```/data/TSP6K/```.
+Download the dataset from [this link(Google Drive)](https://drive.google.com/file/d/1yDCL8vLOYcRuInCPUij3_pmq9yPk7KQj/view?usp=sharing) or [this link(jianguoyun)](https://www.jianguoyun.com/p/DZVO0kMQ2tnWChjun6MFIAA)(password: Wi9qFT) and put them into ```/data/TSP6K/```.
 ```
 data
 ├── TSP6K
